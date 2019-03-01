@@ -128,7 +128,7 @@ public class TestCalc {
     
  
     private void createFrame() {
-        frame = new MyJFrame("My calculator", 430, 200, new BorderLayout(2, 2));
+        frame = new MyJFrame("My calculator", 430, 200, new BorderLayout(2, 2),false);
         frame.setMinimumSize(new Dimension(430, 200));
         frame.setResizable(false);
         
